@@ -34,6 +34,7 @@ a {
 .column {
   float:left;
   text-align: center;
+  margin: 0 auto;
 }
 .col-3-layout .column {
   width: 33.33%;
@@ -56,18 +57,34 @@ a {
 }
 
 .pricing {
-  background-color: lightgray;
+  background-color: rgb(235,235,235);
 }
 
 .contact,
 .site-footer {
   background-color: white;
 }
+span {
+  color: #32D9BD;
+}
 
-/*
+.send-button {
+  background-color: #32D9BD;
+}
+
+.more-button {
+  background-color: #32D9BD;
+}
+
 img {
   max-width: 100%;
 }
+#text2 {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*
 body {
   font-family: arial; sans-serif;
 }
